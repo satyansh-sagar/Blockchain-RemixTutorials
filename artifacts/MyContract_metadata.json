@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStruct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "myId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "myString",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyContract.sol": "MyContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyContract.sol": {
+			"keccak256": "0x6313971f0d5edfb005ebdd4002ce0f0c8865816cd02b6bfda16659a8c5c429ec",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2d2dda31272531dab6ef5097bec642fa5815282e8052daa68dc98b9ab50e9292",
+				"dweb:/ipfs/QmVYYwE8bGTjNu7Viuw6ww9RaexZ7nCJVGhhxAzVVGZrk4"
+			]
+		}
+	},
+	"version": 1
+}
